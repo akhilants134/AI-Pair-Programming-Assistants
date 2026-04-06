@@ -1,44 +1,64 @@
-# Vibe vs. Pair Challenge
+# Comparing Vibe Coding Tools and AI Pair Programming
 
-This challenge involves building the same Task Manager application twice to compare two distinct AI-assisted development workflows: **Vibe Coding** (using generative UI/app tools) and **AI Pair Programming** (using editor-integrated assistants). By the end, you'll have a clear understanding of the strengths and weaknesses of each approach.
+This repository contains the same Task Manager app implemented in two different ways for Challenge #4:
 
-## The App You Are Building
+1. Vibe coding workflow in `vibe-version`
+2. AI pair programming workflow in `pair-version`
 
-You will be building a standalone Task Manager. You must strictly follow the requirements outlined in the [app-spec.md](./app-spec.md) file for both versions.
+The goal is not to find one universal winner. The goal is to measure tradeoffs across speed, control, code quality, explainability, and editability.
 
-## Your Folders
+## App Spec Followed
 
-- `/vibe-version`: Use this folder for the version built using a "vibe" tool (e.g., Lovable, v0, Google AI Studio Build).
-- `/pair-version`: Use this folder for the version built using an AI pair programming assistant (e.g., GitHub Copilot, Cursor).
+Both versions implement the same required features from `app-spec.md`:
 
-## Live Deployments
-
-- Vibe version: ADD YOUR LINK HERE
-- Pair version: ADD YOUR LINK HERE
-
-## Comparison Table
-
-Fill out the following table after completing both versions:
-
-| Dimension | Vibe Version | Pair Version |
-| :--- | :--- | :--- |
-| **Speed** | | |
-| **Control** | | |
-| **Code Quality** | | |
-| **Explainability** | | |
-| **Editability** | | |
-
-## When I Would Use Each Tool
-
-- 
-- 
+1. Add a task by title.
+2. Mark a task complete.
+3. Filter tasks by All / Active / Completed.
+4. Show dynamic remaining task count.
 
 ## Tools Used
 
-- **Vibe tool used:** 
-- **Pair tool used:** 
+- Vibe tool used: Lovable (replace if you used v0 or Google AI Studio Build)
+- Pair tool used: GitHub Copilot
 
-## How to Submit
+## Comparison Table
 
-1. **PR Link:** [Insert your Pull Request link here]
-2. **Video Link:** [Insert your Loom or recorded demo link here]
+Replace timing and suggestion metrics with your actual numbers from your build session.
+
+| Dimension      | Vibe Version (tool used) | Pair Version (tool used) | Verdict |
+| -------------- | ------------------------ | ------------------------ | ------- |
+| Speed          |                          |                          |         |
+| Control        |                          |                          |         |
+| Code Quality   |                          |                          |         |
+| Explainability |                          |                          |         |
+| Editability    |                          |                          |         |
+
+## Evidence Notes
+
+- Pair core file line count: 124 lines (`pair-version/src/App.jsx`).
+- Vibe core behavior spread across:
+  - 76 lines (`vibe-version/project/src/pages/Index.jsx`)
+  - 72 lines (`vibe-version/project/src/components/TaskInput.jsx`)
+  - 87 lines (`vibe-version/project/src/components/TaskList.jsx`)
+  - 24 lines (`vibe-version/project/src/components/TaskFilters.jsx`)
+
+## When I Would Use Each Tool
+
+Vibe coding tool for: rapid concept demos or visual exploration, because it produced a full, styled app structure quickly with many ready-made components.
+
+AI pair programming for: production-bound or change-heavy work, because I can trace logic quickly and modify behavior in fewer files.
+
+## Submission Links
+
+- GitHub PR URL: https://github.com/REPLACE/REPLACE/pull/REPLACE
+- Video Explanation URL:
+
+## Final Pre-Submission Checklist
+
+1. Both folders exist and run:
+   - `pair-version`
+   - `vibe-version`
+2. Both live links are added above and open publicly.
+3. Comparison table has real timings and specific observations from your own run.
+4. PR is public and includes this README.
+5. Video is 2-3 minutes, publicly viewable, and shows both apps live.
