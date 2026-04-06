@@ -51,7 +51,7 @@ AI pair programming for: production-bound or change-heavy work, because I can tr
 ## Submission Links
 
 - GitHub PR URL: https://github.com/REPLACE/REPLACE/pull/REPLACE
-- Video Explanation URL:
+- Video Explanation URL: https://drive.google.com/REPLACE
 
 ## Final Pre-Submission Checklist
 
